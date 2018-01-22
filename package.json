@@ -1,0 +1,34 @@
+{
+  "name": "qry",
+  "version": "1.0.0",
+  "description": "A functional sql builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
+    "test-debug": "node %NODE_DEBUG_OPTIONS% node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=test/jasmine.json",
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bflemi3/qry.git"
+  },
+  "keywords": [
+    "sql",
+    "builder"
+  ],
+  "author": "Brandon Fleming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bflemi3/qry/issues"
+  },
+  "homepage": "https://github.com/bflemi3/qry#readme",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "jasmine": "^2.8.0",
+    "jasmine-spec-reporter": "^4.2.1"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
